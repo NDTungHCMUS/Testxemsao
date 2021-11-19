@@ -14,10 +14,12 @@
 #include"MyFunction.h"
 using namespace std;
 int main() {
-	int n;
+	int n; 
+	int b;
 	cout << "The purpose of this program is finding the product of the number from 1 to n"<<endl;
 	cout << "Please input n: ";
 	cin >> n;
+	cin>> b;
 	cout << "The product is: " << product(n) << endl;
 	return 0;
 }
